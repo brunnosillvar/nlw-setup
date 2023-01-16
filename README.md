@@ -1,6 +1,8 @@
 # nlw-setup
 # Configuração do projeto back-end
 ## Após criada a pasta do projeto, rodar o comando: npm init -y
+## Para rodar o servidor back-end, usar o comando: npm run dev
+#### Deve ser feito a configuração do script no arquivo "package.json"
 ## No projeto, estará sendo usado o framework Fastify para roteamento, ele é paralelo ao Express. Para instalar, usar o comando: npm install fastify
 ## A linguagem a ser utilizada será o typescript, para isso é necessário instalá-lo ao projeto utilizando o comando: npm install typescript
 ### Instalado o ts, é preciso executá-lo utilizando o seguinte comando: npx tsc --init
