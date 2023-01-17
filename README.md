@@ -13,3 +13,11 @@
 ## Depois de configurado o model no arquivo "schema.prisma", usar o seguinte comando para que o prisma rode as queries: npx prisma migrate dev
 ### Para abrir um visual do banco, basta utilizar o comando: npx prisma studio
 ## Por fim, é necessário instalar o cors para que bloqueie aplicações front-end de acessar a API, usando o comando: npm i @fastify/cors
+
+
+# Configuração do projeto front-end
+## Criar o projeto com o seguinte comando: npm create vite@latest
+#### Selecionar React e TypeScript
+## Pós criado o projeto, rodar o comando a seguir para instalar todas as dependências básicar para rodar o projeto: npm install
+## Para rodar o projeto front-end, usar o comando: npm run dev
+## Na parte da estilização, será usado o TailwindCSS, para instalar, seguir a documentação: https://tailwindcss.com/docs/installation/using-postcss
