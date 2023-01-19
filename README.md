@@ -13,7 +13,14 @@
 ## Depois de configurado o model no arquivo "schema.prisma", usar o seguinte comando para que o prisma rode as queries: npx prisma migrate dev
 ### Para abrir um visual do banco, basta utilizar o comando: npx prisma studio
 ## Por fim, é necessário instalar o cors para que bloqueie aplicações front-end de acessar a API, usando o comando: npm i @fastify/cors
-
+## Gerar diagramas do Banco de Dados: npm i -D prisma-erd-generator @mermaid-js/mermaid-cli
+### Adicionar ao arquivo "schema.prisma": generator erd {
+  provider = "prisma-erd-generator"
+}
+### Para rodar o diagrama: npx prisma generate
+## Popular banco para testes, após criar o arquivo "seed,ts" (https://www.prisma.io/docs/guides/database/seed-database), rodar o comando: npx prisma db seed
+## Lib de validação: npm install zod
+## Lib para trabalhar com datas: npm install dayjs
 
 # Configuração do projeto front-end
 ## Criar o projeto com o seguinte comando: npm create vite@latest
