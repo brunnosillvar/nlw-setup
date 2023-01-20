@@ -28,3 +28,5 @@
 ## Pós criado o projeto, rodar o comando a seguir para instalar todas as dependências básicar para rodar o projeto: npm install
 ## Para rodar o projeto front-end, usar o comando: npm run dev
 ## Na parte da estilização, será usado o TailwindCSS, para instalar, seguir a documentação: https://tailwindcss.com/docs/installation/using-postcss
+## Lib de ícones Phosphor Icons: npm install phosphor-react
+## Lib para trabalhar com datas: npm install dayjs
