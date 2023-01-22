@@ -30,3 +30,6 @@
 ## Na parte da estilização, será usado o TailwindCSS, para instalar, seguir a documentação: https://tailwindcss.com/docs/installation/using-postcss
 ## Lib de ícones Phosphor Icons: npm install phosphor-react
 ## Lib para trabalhar com datas: npm install dayjs
+## Lib de components acessíveis (Radix-UI - será instalado somente o component de diolod (modal)): npm install @radix-ui/react-dialog 
+## Lib de components acessíveis (Radix-UI - será instalado somente o component de popover): npm install @radix-ui/react-popover
+## Lib para trabalhar com classes condicionais para css: npm install clsx
