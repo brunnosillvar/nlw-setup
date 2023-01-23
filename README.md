@@ -32,4 +32,6 @@
 ## Lib para trabalhar com datas: npm install dayjs
 ## Lib de components acessíveis (Radix-UI - será instalado somente o component de diolod (modal)): npm install @radix-ui/react-dialog 
 ## Lib de components acessíveis (Radix-UI - será instalado somente o component de popover): npm install @radix-ui/react-popover
+## Lib de components acessíveis (Radix-UI - será instalado somente o component de checkbox): npm install @radix-ui/react-checkbox
 ## Lib para trabalhar com classes condicionais para css: npm install clsx
+## Lib para chamadas na API (Axios): npm install axios
