@@ -21,6 +21,8 @@
 ## Popular banco para testes, após criar o arquivo "seed,ts" (https://www.prisma.io/docs/guides/database/seed-database), rodar o comando: npx prisma db seed
 ## Lib de validação: npm install zod
 ## Lib para trabalhar com datas: npm install dayjs
+## Lib para notificações push: npm install web-push
+### Instalar a tipagem da lib acima, pois ela é somente JS: npm install @types/web-push -D
 
 # Configuração do projeto front-end
 ## Criar o projeto com o seguinte comando: npm create vite@latest
@@ -35,3 +37,4 @@
 ## Lib de components acessíveis (Radix-UI - será instalado somente o component de checkbox): npm install @radix-ui/react-checkbox
 ## Lib para trabalhar com classes condicionais para css: npm install clsx
 ## Lib para chamadas na API (Axios): npm install axios
+## Lib de push notification: https://www.npmjs.com/package/web-push
