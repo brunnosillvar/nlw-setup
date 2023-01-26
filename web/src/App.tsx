@@ -2,8 +2,25 @@ import { Header } from './components/Header';
 import { SummaryTable } from './components/SummaryTable';
 import './styles/global.css';
 import './lib/dayjs';
+import { api } from './lib/axios';
 
-// import { Habit } from './components/Habit';
+navigator.serviceWorker.register('service-worker.js').then(async (serviceWorker) => {
+	let subscription = await serviceWorker.pushManager.getSubscription();
+
+	if (!subscription) {
+		const publicKeyResponse = api.get('/push/public_key');
+		subscription = await serviceWorker.pushManager.subscribe({
+			userVisibleOnly: true,
+			applicationServerKey: (await publicKeyResponse).data.publicKey,
+		});
+	}
+	api.post('push/register', {
+		subscription,
+	});
+	api.post('push/send', {
+		subscription,
+	});
+});
 
 export function App() {
 	return (
